@@ -1,9 +1,14 @@
 # RexNet
 Rethinking Channel Dimensions for Efficient Model Design | [Paper](https://arxiv.org/abs/2007.00992) | [Official](https://github.com/clovaai/rexnet)
 
+<!---
+Adapted from original impl at https://github.com/clovaai/rexnet
+Copyright (c) 2020-present NAVER Corp. MIT license
+--->
+
 ### Results:
 
-<table style="width:100%">
+<table>
   <tr>
     <td></td>
     <td colspan="3" align="center">This Repo.</td>
@@ -41,7 +46,7 @@ Rethinking Channel Dimensions for Efficient Model Design | [Paper](https://arxiv
     <td>80.3</td>
     <td>95.2</td>
   </tr>
-<tr>
+  <tr>
     <td>ReXNet_2.0</td>
     <td><strong>...</strong></td>
     <td><strong>...</strong></td>
@@ -49,7 +54,15 @@ Rethinking Channel Dimensions for Efficient Model Design | [Paper](https://arxiv
     <td>81.6</td>
     <td>95.7</td>
   </tr>
-<tr>
+  <tr>
+    <td>ReXNet_2.2</td>
+    <td><strong>...</strong></td>
+    <td><strong>...</strong></td>
+    <td>19M</td>
+    <td>81.7</td>
+    <td>95.8</td>
+  </tr>
+  <tr>
     <td>ReXNet_3.0</td>
     <td><strong>...</strong></td>
     <td><strong>...</strong></td>
@@ -59,12 +72,7 @@ Rethinking Channel Dimensions for Efficient Model Design | [Paper](https://arxiv
   </tr>
 </table>
 
+### Reference
 
 
 
-<!---||||
-  ReXNet-lite_1.0 | 224x224 | 76.2 | 92.8 | 0.41B/4.7M |
-  ReXNet-lite_1.3 | 224x224 | 77.8 | 93.8 | 0.65B/6.8M |
-  ReXNet-lite_1.5 | 224x224 | 78.6 | 94.2 | 0.84B/8.3M| 
-  ReXNet-lite_2.0 | 224x224 | 80.2 | 95.0 | 1.5B/13M | 
---->
