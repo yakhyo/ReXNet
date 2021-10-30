@@ -18,9 +18,7 @@ class LinearBottleneck(nn.Module):
         else:
             dw_channels = in_channels
 
-        layers.append(
-            ConvBNAct(in_channels=dw_channels, out_channels=dw_channels, kernel_size=3, stride=stride, padding=1,
-                      groups=dw_channels, act=False))
+        layers.append(ConvBNAct(in_channels=dw_channels, out_channels=dw_channels, kernel_size=3, stride=stride, padding=1, groups=dw_channels, act=False))
 
         if use_se:
             layers.append(SEModule(channels=dw_channels, ratio=ratio))
@@ -71,14 +69,11 @@ def _conf(in_channels=16, out_channels=180, width_mult=1.0, depth_mult=1.0, use_
             out_filters.append(int(round(in_planes * width_mult)))
 
     features.append(
-        ConvBNSiLU(in_channels=3, out_channels=int(round(stem_channel * width_mult)), kernel_size=3, stride=2,
-                   padding=1))
+        ConvBNSiLU(in_channels=3, out_channels=int(round(stem_channel * width_mult)), kernel_size=3, stride=2, padding=1))
 
     for idx, (in_ch, out_ch, exp_ratio, stride, se) in enumerate(
             zip(in_filers, out_filters, exp_ratios, strides, use_ses)):
-        features.append(
-            LinearBottleneck(in_channels=in_ch, out_channels=out_ch, exp_ratio=exp_ratio, stride=stride, use_se=se,
-                             ratio=ratio))
+        features.append(LinearBottleneck(in_channels=in_ch, out_channels=out_ch, exp_ratio=exp_ratio, stride=stride, use_se=se, ratio=ratio))
 
     pen_channels = int(1280 * width_mult)
     features.append(ConvBNSiLU(in_channels=out_filters[-1], out_channels=pen_channels))
