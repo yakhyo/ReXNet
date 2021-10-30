@@ -1,1 +1,1 @@
-from utils.utils import ConvBNAct, ConvBNSiLU, SE
+from utils.utils import ConvBNAct, ConvBNSiLU, SEModule

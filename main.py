@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 
-from nets.nn import rexnetv1, rexnetv2
+from nets.nn import rexnet_100, rexnet_130, rexnet_150, rexnet_200, rexnet_220, rexnet_300
 
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
 parser.add_argument('data', metavar='DIR',
@@ -49,7 +49,7 @@ def main_worker(args):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     print('=> Creating Model <=')
-    model = rexnetv1()
+    model = rexnet_100()
 
     if torch.cuda.is_available():
         print("Use GPU: {} for training".format(device))
