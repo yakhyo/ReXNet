@@ -24,8 +24,8 @@ Copyright (c) 2020-present NAVER Corp. MIT license
   </tr>
   <tr>
     <td>ReXNet_1.0</td>
-    <td><strong>...</strong></td>
-    <td><strong>...</strong></td>
+    <td><strong>72.4</strong></td>
+    <td><strong>90.8</strong></td>
     <td>4.8M</td>
     <td>77.9</td>
     <td>93.9</td>
@@ -73,7 +73,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
 </table>
 
 
-Trained on ImageNet
+Trained on ImageNet (90 epochs)
 - GPU: Tesla V100
 - Input size: 3x224x224
 
