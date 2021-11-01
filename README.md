@@ -72,6 +72,28 @@ Copyright (c) 2020-present NAVER Corp. MIT license
   </tr>
 </table>
 
+
+Trained on ImageNet
+- GPU: Tesla V100
+- Input size: 3x224x224
+
+Dataset structure:
+
+```
+├── IMAGENET 
+    ├── train
+         ├── [class_id1]/xxx.{jpg,png,jpeg}
+         ├── [class_id2]/xxy.{jpg,png,jpeg}
+         ├── [class_id3]/xxz.{jpg,png,jpeg}
+          ....
+    ├── val
+         ├── [class_id1]/xxx1.{jpg,png,jpeg}
+         ├── [class_id2]/xxy2.{jpg,png,jpeg}
+         ├── [class_id3]/xxz3.{jpg,png,jpeg}
+```
+
+
+
 ### Reference
 
 
