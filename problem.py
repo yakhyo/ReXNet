@@ -1,5 +1,7 @@
 # 1
 def func(nums):
+    esum = 0
+    osum = 0
     if len(nums) == 1:
         exit()
     for i in range(len(nums)):
