@@ -1,8 +1,4 @@
 # 1
-n = int(input("N="))
-nums = list(map(int, input().split()))
-
-
 def func(nums):
     if len(nums) == 1:
         exit()
@@ -16,7 +12,13 @@ def func(nums):
                 func(nums[i + 1:])
 
 
-func(nums)
+if __name__ == "__main__":
+    num = int(input("N = "))
+    nums = list(map(int, input(f"Please input {num} numbers with space:\n").split()))
+
+    assert num == len(nums), f"Expected {num} inputs but {len(nums)} given"
+
+    func(nums)
 
 
 # 2
