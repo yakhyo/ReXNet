@@ -11,7 +11,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
 <table>
   <tr>
     <td></td>
-    <td colspan="3" align="center">This Repo.</td>
+    <td colspan="4" align="center">This Repo.</td>
     <td colspan="2" align="center">Official</td>
   </tr>
   <tr>
@@ -19,6 +19,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
     <td>Acc@1</td>
     <td>Acc@5</td>
     <td>Params</td>
+    <td>Weights</td>
     <td>Acc@1</td>
     <td>Acc@5</td>
   </tr>
@@ -27,6 +28,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
     <td><strong>72.4</strong></td>
     <td><strong>90.8</strong></td>
     <td>4.8M</td>
+    <td><a href='https://'>soon</a></td>
     <td>77.9</td>
     <td>93.9</td>
   </tr>
@@ -35,6 +37,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
     <td><strong>74.2</strong></td>
     <td><strong>92.0</strong></td>
     <td>7.6M</td>
+    <td><a href='https://'>soon</a></td>
     <td>79.5</td>
     <td>94.7</td>
   </tr>
@@ -43,6 +46,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
     <td><strong>...</strong></td>
     <td><strong>...</strong></td>
     <td>7.6M</td>
+    <td><a href='https://'>soon</a></td>
     <td>80.3</td>
     <td>95.2</td>
   </tr>
@@ -51,6 +55,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
     <td><strong>...</strong></td>
     <td><strong>...</strong></td>
     <td>16M</td>
+    <td><a href='https://'>soon</a></td>
     <td>81.6</td>
     <td>95.7</td>
   </tr>
@@ -59,6 +64,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
     <td><strong>...</strong></td>
     <td><strong>...</strong></td>
     <td>19M</td>
+    <td><a href='https://'>soon</a></td>
     <td>81.7</td>
     <td>95.8</td>
   </tr>
@@ -67,6 +73,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
     <td><strong>...</strong></td>
     <td><strong>...</strong></td>
     <td>34M</td>
+    <td><a href='https://'>soon</a></td>
     <td>82.8</td>
     <td>96.2</td>
   </tr>
