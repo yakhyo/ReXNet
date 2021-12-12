@@ -1,4 +1,4 @@
-# RexNet
+# ReXNet
 Rethinking Channel Dimensions for Efficient Model Design | [Paper](https://arxiv.org/abs/2007.00992) | [Official](https://github.com/clovaai/rexnet)
 
 <!---
@@ -44,7 +44,7 @@ Copyright (c) 2020-present NAVER Corp. MIT license
   <tr>
     <td>ReXNet_1.5</td>
     <td><strong>75.05</strong></td>
-    <td><strong>92.374</strong></td>
+    <td><strong>92.37</strong></td>
     <td>7.6M</td>
     <td><a href='https://'>soon</a></td>
     <td>80.3</td>
