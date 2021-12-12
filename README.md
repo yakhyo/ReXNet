@@ -102,7 +102,7 @@ Dataset structure:
 
 
 ### Reference
-- Clova AI
+- https://github.com/clovaai/rexnet
 
 
 
