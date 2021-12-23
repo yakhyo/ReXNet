@@ -70,8 +70,8 @@ Copyright (c) 2020-present NAVER Corp. MIT license
   </tr>
   <tr>
     <td>ReXNet_3.0</td>
-    <td><strong>...</strong></td>
-    <td><strong>...</strong></td>
+    <td><strong>77.31</strong></td>
+    <td><strong>93.44</strong></td>
     <td>34M</td>
     <td><a href='https://'>soon</a></td>
     <td>82.8</td>
